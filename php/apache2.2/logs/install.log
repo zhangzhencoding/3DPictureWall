@@ -1,0 +1,74 @@
+Installing Apache HTTP 2.0 server with
+ DomainName =    localhost
+ ServerName =    localhost
+ ServerAdmin =   ecms@localhost.com
+ ServerPort =    80
+ ServerSslPort = 80
+ ServerRoot =    D:/EmpireServer/php/apache2.2
+Rewrote D:/EmpireServer/php/apache2.2/conf/default/httpd-autoindex.conf.in
+ to D:/EmpireServer/php/apache2.2/conf/default/httpd-autoindex.conf
+Successfully removed D:\EmpireServer\php\apache2.2\conf\default\httpd-autoindex.conf.in
+Rewrote D:/EmpireServer/php/apache2.2/conf/default/httpd-vhosts.conf.in
+ to D:/EmpireServer/php/apache2.2/conf/default/httpd-vhosts.conf
+Successfully removed D:\EmpireServer\php\apache2.2\conf\default\httpd-vhosts.conf.in
+Rewrote D:/EmpireServer/php/apache2.2/conf/default/httpd-default.conf.in
+ to D:/EmpireServer/php/apache2.2/conf/default/httpd-default.conf
+Successfully removed D:\EmpireServer\php\apache2.2\conf\default\httpd-default.conf.in
+Rewrote D:/EmpireServer/php/apache2.2/conf/default/httpd-manual.conf.in
+ to D:/EmpireServer/php/apache2.2/conf/default/httpd-manual.conf
+Successfully removed D:\EmpireServer\php\apache2.2\conf\default\httpd-manual.conf.in
+Rewrote D:/EmpireServer/php/apache2.2/conf/default/httpd-mpm.conf.in
+ to D:/EmpireServer/php/apache2.2/conf/default/httpd-mpm.conf
+Successfully removed D:\EmpireServer\php\apache2.2\conf\default\httpd-mpm.conf.in
+Rewrote D:/EmpireServer/php/apache2.2/conf/default/httpd-info.conf.in
+ to D:/EmpireServer/php/apache2.2/conf/default/httpd-info.conf
+Successfully removed D:\EmpireServer\php\apache2.2\conf\default\httpd-info.conf.in
+Rewrote D:/EmpireServer/php/apache2.2/conf/default/httpd-dav.conf.in
+ to D:/EmpireServer/php/apache2.2/conf/default/httpd-dav.conf
+Successfully removed D:\EmpireServer\php\apache2.2\conf\default\httpd-dav.conf.in
+Rewrote D:/EmpireServer/php/apache2.2/conf/default/httpd-languages.conf.in
+ to D:/EmpireServer/php/apache2.2/conf/default/httpd-languages.conf
+Successfully removed D:\EmpireServer\php\apache2.2\conf\default\httpd-languages.conf.in
+Rewrote D:/EmpireServer/php/apache2.2/conf/default/httpd-win.conf
+ to D:/EmpireServer/php/apache2.2/conf/default/httpd.conf
+Successfully removed D:\EmpireServer\php\apache2.2\conf\default\httpd-win.conf
+Rewrote D:/EmpireServer/php/apache2.2/conf/default/httpd-userdir.conf.in
+ to D:/EmpireServer/php/apache2.2/conf/default/httpd-userdir.conf
+Successfully removed D:\EmpireServer\php\apache2.2\conf\default\httpd-userdir.conf.in
+Rewrote D:/EmpireServer/php/apache2.2/conf/default/httpd-ssl.conf.in
+ to D:/EmpireServer/php/apache2.2/conf/default/httpd-ssl.conf
+Successfully removed D:\EmpireServer\php\apache2.2\conf\default\httpd-ssl.conf.in
+Rewrote D:/EmpireServer/php/apache2.2/conf/default/httpd-multilang-errordoc.conf.in
+ to D:/EmpireServer/php/apache2.2/conf/default/httpd-multilang-errordoc.conf
+Successfully removed D:\EmpireServer\php\apache2.2\conf\default\httpd-multilang-errordoc.conf.in
+Duplicated D:/EmpireServer/php/apache2.2/conf/default/magic
+ to D:/EmpireServer/php/apache2.2/conf/magic
+Duplicated D:/EmpireServer/php/apache2.2/conf/default/httpd-autoindex.conf
+ to D:/EmpireServer/php/apache2.2/conf/extra/httpd-autoindex.conf
+Duplicated D:/EmpireServer/php/apache2.2/conf/default/httpd-vhosts.conf
+ to D:/EmpireServer/php/apache2.2/conf/extra/httpd-vhosts.conf
+Duplicated D:/EmpireServer/php/apache2.2/conf/default/httpd-default.conf
+ to D:/EmpireServer/php/apache2.2/conf/extra/httpd-default.conf
+Duplicated D:/EmpireServer/php/apache2.2/conf/default/mime.types
+ to D:/EmpireServer/php/apache2.2/conf/mime.types
+Duplicated D:/EmpireServer/php/apache2.2/conf/default/charset.conv
+ to D:/EmpireServer/php/apache2.2/conf/charset.conv
+Duplicated D:/EmpireServer/php/apache2.2/conf/default/httpd-manual.conf
+ to D:/EmpireServer/php/apache2.2/conf/extra/httpd-manual.conf
+Duplicated D:/EmpireServer/php/apache2.2/conf/default/httpd-mpm.conf
+ to D:/EmpireServer/php/apache2.2/conf/extra/httpd-mpm.conf
+Duplicated D:/EmpireServer/php/apache2.2/conf/default/httpd-info.conf
+ to D:/EmpireServer/php/apache2.2/conf/extra/httpd-info.conf
+Duplicated D:/EmpireServer/php/apache2.2/conf/default/httpd-dav.conf
+ to D:/EmpireServer/php/apache2.2/conf/extra/httpd-dav.conf
+Duplicated D:/EmpireServer/php/apache2.2/conf/default/httpd-languages.conf
+ to D:/EmpireServer/php/apache2.2/conf/extra/httpd-languages.conf
+Duplicated D:/EmpireServer/php/apache2.2/conf/default/httpd.conf
+ to D:/EmpireServer/php/apache2.2/conf/httpd.conf
+Duplicated D:/EmpireServer/php/apache2.2/conf/default/httpd-userdir.conf
+ to D:/EmpireServer/php/apache2.2/conf/extra/httpd-userdir.conf
+Duplicated D:/EmpireServer/php/apache2.2/conf/default/httpd-ssl.conf
+ to D:/EmpireServer/php/apache2.2/conf/extra/httpd-ssl.conf
+Duplicated D:/EmpireServer/php/apache2.2/conf/default/httpd-multilang-errordoc.conf
+ to D:/EmpireServer/php/apache2.2/conf/extra/httpd-multilang-errordoc.conf
+Successfully removed D:\EmpireServer\php\apache2.2\conf\default\InstallConf22.awk

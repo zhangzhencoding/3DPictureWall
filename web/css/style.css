@@ -1,0 +1,89 @@
+﻿
+*{-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+html,body{padding: 0; margin: 0; font-family: 14px; font-family: "微软雅黑";color: #fff;}
+body{background-image:linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);background-attachment: fixed;background-repeat: no-repeat;background-size: cover;}
+.ce-pack-end{ -webkit-box-orient: vertical; -webkit-box-pack:center; position: absolute; top:0; left: 0;}
+
+.luck-back{ background-size: cover; background-position: top center; position: absolute; height: 100%; width: 100%; color: #fff;}
+.luck-back h1{margin:30px 0 0 0 ;font-size: 50px;text-align:center;color: #fafafa;letter-spacing: 0;text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135}
+.luck-content{position: absolute; top: 20%; bottom:20%; left:20%; right:20%; background: rgba(0,0,0,.6); padding: 20px; border-radius: 5px; padding-right:260px;filter: drop-shadow(0px 10px 40px rgba(0, 0, 0, 0.55));}
+.luck-pic-content{position: absolute; top: 15%; bottom:15%; left:10%; right:10%; background: rgba(0,0,0,.6); padding: 20px; border-radius: 5px; filter: drop-shadow(0px 10px 40px rgba(0, 0, 0, 0.55));}
+
+.luck-user{position: absolute; right: 20px; top: 20px; bottom: 20px; width: 240px; background-color: rgba(255,255,255,.2); border-radius: 5px;}
+.luck-user-list{list-style-type: none; padding:0 20px; margin: 0; overflow-y:scroll; position: absolute; top: 50px; bottom: 70px; width: 95%;}
+.luck-user-list>li{margin-top: 10px; position: relative;}
+.luck-user-list>li div.portrait{height: 30px; width: 30px; border-radius: 5px; background-position: center; background-size: cover;}
+.luck-pic-list{list-style-type: none; padding:0 20px; margin: 0; overflow-y:scroll; position: absolute; top: 50px; bottom: 100px; width: 95%;}
+.luck-pic-list>li{margin-top: 10px; position: relative;}
+.luck-pic-list>li div.portrait{height: 30px; width: 30px; border-radius: 5px; background-position: center; background-size: cover;}
+.luckuserName{line-height: 30px; position: absolute; top: 0; left:40px; right: 0;}
+.luck-set-title{position: absolute; width: 90%; display: block; text-align: center; line-height: 40px; left: 5%; color: #f5b43a; font-weight: bold;}
+.luck-user-title{position: absolute; width: 90%; display: block; text-align: center; line-height: 40px; left: 5%; color: #f5b43a; font-weight: bold;}
+.luck-user-title::before{position: absolute; content: ""; top: 100%; left: 0; width: 100%; background:-webkit-linear-gradient(left,rgba(248,215,59,0),#f0d03a,rgba(248,215,59,0)); height:1px;}
+.luck-list-title{position: absolute; width: 90%; display: block; text-align: center;  left: 5%; color: #f5b43a; font-weight: bold;}
+.luck-list-title::before{position: absolute; content: ""; top: 100%; left: 0; width: 100%; background:-webkit-linear-gradient(left,rgba(248,215,59,0),#f0d03a,rgba(248,215,59,0)); height:1px;}
+.luck-user-btn{position: absolute; bottom: 20px; left: 5%; width: 90%; text-align: center; line-height: 40px; cursor: pointer;}
+.luck-user-btn>a{background: #f29807; width: 100%; line-height: 40px; display: block; border-radius: 5px; text-decoration: none; color: #fff;}
+.luck-user-btn>a:hover{background: #fcb842;}
+.luck-list-btn{position: absolute; bottom: 20px; left: 5%; width: 90%; text-align: center; line-height: 40px; cursor: pointer;}
+.luck-list-btn>a{background: #f29807; min-width: 10%; line-height: 40px; display: block; border-radius: 5px; text-decoration: none; color: #fff;float: left;margin: 10px;    padding: 0 5px;}
+.luck-list-btn>a:hover{background: #fcb842;}
+.luck-set-btn{ position: absolute; bottom: 20px; left: 5%; width: 90%;text-align: center; line-height: 40px; cursor: pointer;}
+.luck-set-btn>a{background: #f29807; min-width: 10%; line-height: 40px; display: block; border-radius: 5px; text-decoration: none; color: #fff;float: left;margin: 10px;    padding: 0 5px;}
+.luck-set-btn>a:hover{background: #fcb842;}
+.cimg{background: #f29807; min-width: 10%; line-height: 40px; display: block; border-radius: 5px; text-decoration: none; color: #fff;float: left;margin: 10px;    padding: 0 5px;}
+.cimg:hover{background: #fcb842;}
+
+.luck-title{text-align: center; margin-bottom: 20px;}
+
+.luck-content-btn{width: 100%; text-align: center; line-height: 40px; padding-top: 20px; overflow: hidden;}
+.sub{background: #f29807; text-decoration: none; display: inline-block; color: #fff; text-align: center;  cursor: pointer; width: 20px;height: 20px;border-radius: 50%;border: none; line-height:17px}
+.add{background: #f29807; text-decoration: none; display: inline-block; color: #fff; text-align: center;  cursor: pointer; width: 20px;height: 20px;border-radius: 50%;border: none; line-height:17px}
+.start{background: #f29807; width:150px; text-decoration: none; display: inline-block; color: #fff; text-align: center; margin: 0 10px; cursor: pointer;}
+.rs{ text-decoration: none; display: inline-block; color: #fff; text-align: center; cursor: pointer;}
+.luck-content-btn a:hover{background: #fcb842; }
+
+.luck-title{font-size: 20px;}
+
+.slotMachine{ width:200px; height: 200px; display: block; text-align: center; background-color: #ffffff; border-radius: 5px; margin: 0 auto; border:#f5ad18 4px solid; position: relative;}
+.slotMachine .slot{ width:100%; height:100%; background-size: cover; background-position: center; position: absolute;}
+.slotMachine .slot>span{position: absolute; bottom: 0; left: 0; line-height: 50px; text-decoration: center; background-color: rgba(0,0,0,.5); width: 100%;}
+.slotMachine .slot span a{color:#fff;}
+.slotMachine .slot span a:hover{color:#fff;}
+
+::-webkit-scrollbar{width: 10px;  height: 16px;  border-radius: 6px;}
+::-webkit-scrollbar-track{border-radius:6px;  background-color: rgba(255,255,255,.2);}
+::-webkit-scrollbar-thumb{border-radius: 6px;  background-color: #fff;}
+
+.luck-img{width: 100%; padding-top: 100%; background-position: center; background-size: cover;}
+
+.imagelist{width:215px;height:215px;background-size: cover; background-position: center;float: left;    position: relative;    padding: 16px;}
+.imagelist span{background-color: rgba(0,0,0,0.5);color: white;position: absolute;text-transform: uppercase;text-align: center;padding: 1rem;z-index: 1;bottom: 1rem;left: 1rem;right: 1rem;}
+.imagelist img{ width:100%;    vertical-align: middle;height: 100%;}
+.type{    background: transparent;    border: 0;    border-bottom: 1px solid #f29807;    width: 95px;    line-height: 20px;    color: #fff;    text-align: center;}
+
+
+.inputtitle {
+    width: 270px;
+    height: 42px;
+    margin-top: 25px;
+    padding: 0 15px;
+    background: #2d2d2d; /* browsers that don't support rgba */
+    background: rgba(45,45,45,.15);
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #3d3d3d; /* browsers that don't support rgba */
+    border: 1px solid rgba(255,255,255,.15);
+    -moz-box-shadow: 0 2px 3px 0 rgba(0,0,0,.1) inset;
+    -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,.1) inset;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1) inset;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,.1);
+    -o-transition: all .2s;
+    -moz-transition: all .2s;
+    -webkit-transition: all .2s;
+    -ms-transition: all .2s;
+}
